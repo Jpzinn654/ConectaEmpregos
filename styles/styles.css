@@ -13,12 +13,44 @@ body {
     --color-1: #252B7B;
     --color-2: #D20DCC;
     --color-3: #6CC726;
+    --color-4: #5887BD;
 }
 
-#s1 {
+.s1 {
     color: var(--color-1);
 }
 
-#s2 {
+.s2 {
     color: var(--color-3);
+}
+
+p {
+    text-align: justify;
+}
+
+.i {
+    background-color: var(--color-4);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+i {
+    color: white;
+}
+
+h4 {
+    color: var(--color-4);
+}
+
+@media (max-width: 992px) {
+    #img1 {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #img {
+        display: none;
+    }
 }

@@ -15,10 +15,26 @@ body {
     --color-3: #6CC726;
 }
 
-#s1 {
+.s1 {
     color: var(--color-1);
 }
 
 #s2 {
     color: var(--color-3);
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    #img1 {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    img {
+        display: none;
+    }
 }

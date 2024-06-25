@@ -87,6 +87,10 @@ h4 {
     min-height: 100vh;
 }
 
+#parceiros {
+    background-color: #E3EEF6;
+}
+
 @media (max-width: 992px) {
     #img1 {
         display: none;

@@ -105,3 +105,9 @@ h4 {
         height: auto;
     }
 }
+
+@mecdia (max-width: 768px) {
+    .card {
+        display: none;
+    }
+}

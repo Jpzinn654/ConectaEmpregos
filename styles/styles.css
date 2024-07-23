@@ -107,7 +107,7 @@ h4 {
 }
 
 #img-ceo {
-    width: 40%;
+    width: 57%;
 }
 
 input[type=text] {
@@ -199,7 +199,7 @@ button:hover {
 
 @media (max-width: 768px) {
     #img-ceo {
-        width: 70%;
+        width: 80%;
     }
 
     .card-group {

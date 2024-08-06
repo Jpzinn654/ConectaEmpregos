@@ -187,11 +187,9 @@ button:hover {
     #img {
         display: none;
     }
-
     .vh-auto {
         height: auto;
     }
-
     #text {
         width: 100%;
     }
@@ -199,9 +197,11 @@ button:hover {
 
 @media (max-width: 768px) {
     #img-ceo {
-        width: 80%;
+        width: 100%;
     }
-
+    #fundadores{
+        height: 78vh;
+    }
     .card-group {
         flex-direction: column;
     }

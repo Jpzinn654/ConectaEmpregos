@@ -200,7 +200,7 @@ button:hover {
         width: 100%;
     }
     #fundadores{
-        height: 78vh;
+        height: auto;
     }
     .card-group {
         flex-direction: column;

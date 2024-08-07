@@ -282,24 +282,29 @@
                         </div>
                     </div>
                     <div class="col-md-6 contact-form">
-                        <form>
+                        <form action="https://formsubmit.co/website@conectaemprego.com.br" method="POST">
                             <div class="mb-3 d-flex gap-2">
                                 <div class="form-group flex-fill">
                                     <label for="nome" class="form-label">Nome</label>
-                                    <input type="text" class="form-control" id="nome" placeholder="Seu Nome" required>
+                                    <input type="text" name="name" class="form-control" id="nome" placeholder="Seu Nome" required>
                                 </div>
                                 <div class="form-group flex-fill">
                                     <label for="sobrenome" class="form-label">Sobrenome</label>
-                                    <input type="text" class="form-control" id="sobrenome" placeholder="Seu Sobrenome" required>
+                                    <input type="text" class="form-control" id="sobrenome" placeholder="Seu Sobrenome">
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Seu E-mail" required>
                             </div>
                             <div class="mb-3">
                                 <label for="mensagem" class="form-label">Mensagem</label>
-                                <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                                <input type="text" name="message" class="form-control" id="mensagem" placeholder="Sua Mensagem" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="text" class="form-label">Seu curriculo</label>
+                                <input type="file" name="attachment" 
+                                accept="image/*, .pdf, .doc, .docx, .xml">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class=" w-100">Enviar</button>
@@ -311,7 +316,7 @@
         </section>
     </main>
 
-    <a href="https://wa.me/5511998853734" target="_blank" class="whatsapp-btn" aria-label="Chat no WhatsApp">
+    <a href="https://wa.me//5511998898950" target="_blank" class="whatsapp-btn" aria-label="Chat no WhatsApp">
         <i class="fab fa-whatsapp fa-2x"></i>
     </a>
 
